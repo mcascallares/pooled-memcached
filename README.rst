@@ -6,4 +6,4 @@ A connection pool of memcached client. It's based in Spy memcached client and su
 Installation
 ============
 
-Since is a complian Maven application, just install the dependency in the local/remote repository and use it.
+Since is a Maven compliant application, just install the dependency in the local/remote repository and use it.

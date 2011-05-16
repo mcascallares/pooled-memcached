@@ -1,0 +1,13 @@
+Start memcached in normal/production mode
+	- daemon mode
+	- tcp transport through port 11211
+	- maximum size defined as 128 MB
+
+		memcached -d -p 11211 -m128
+
+Start memcached in debug mode
+	- interactive mode
+	- tcp transport through port 11211
+	- verbose at medium level through console
+
+		memcached -p 11211 -m128 -vv
